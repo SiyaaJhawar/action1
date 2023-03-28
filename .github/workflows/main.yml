@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Call Action 2
-        uses: SiyaaJhawar/action1/
+        uses: SiyaaJhawar/action1/myaction1@main
