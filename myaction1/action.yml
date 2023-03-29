@@ -1,9 +1,0 @@
-name: Action 2
-description: An action that calls Action 1
-
-runs:
-    using: 'node12'
-    main: 'index.js'
- steps:
-    - name: Call Action 1
-      uses: SiyaaJhawar/action/myaction@main
