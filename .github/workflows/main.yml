@@ -13,5 +13,5 @@ jobs:
       - uses: actions/checkout@v2
     
       - name: Call reusable workflow from another repo
-        uses: https://github.com/SiyaaJhawar/action/.github/workflows/main.yml@main
+        uses: https://github.com/SiyaaJhawar/action/blob/main/.github/workflows/main.yml@main
  
