@@ -10,5 +10,5 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Call Action 2
-        uses: SiyaaJhawar/action1/myaction1@main
+       - name: Call reusable workflow from second repository
+         uses: SiyaaJhawar/action/.github/workflows/reusable-workflow.yml@main
