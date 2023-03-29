@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  my-job:
+   my-job:
     runs-on: ubuntu-latest
     steps:
-       - name: Call reusable workflow from second repository
-         uses: SiyaaJhawar/action/.github/workflows/main.yml@main
+      - name: Call reusable workflow from second repository
+        uses: SiyaaJhawar/action/.github/workflows/main.yml@main
