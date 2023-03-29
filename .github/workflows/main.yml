@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Call reusable workflow from second repository
-        uses: https://github.com/SiyaaJhawar/action/blob/main/.github/workflows/main1.yml@main
+        uses: SiyaaJhawar/action/main.yml@main
