@@ -12,9 +12,5 @@ jobs:
     steps:
       - name: Checkout Private Repository
         uses: actions/checkout@v2
-        with:
-          repository: action
-          token: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
-
-      - name: Use Private Action
-        uses: SiyaaJhawar/action/myaction2@main
+      
+      - uses: SiyaaJhawar/action/myaction2@main
