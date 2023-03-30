@@ -16,4 +16,4 @@ jobs:
           token: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
 
       - name: Use Private Action
-        uses: action/myaction2@main
+        uses: SiyaaJhawar/action/myaction2@main
