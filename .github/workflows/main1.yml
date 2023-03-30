@@ -1,0 +1,19 @@
+name: Use Private Actions
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  use-private-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Private Repository
+        uses: actions/checkout@v2
+        with:
+          repository: action
+          token: ${{ secrets.PRIVATE_REPO_ACCESS_TOKEN }}
+
+      - name: Use Private Action
+        uses: action/myaction2@main
