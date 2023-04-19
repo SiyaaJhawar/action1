@@ -1,0 +1,7 @@
+name: MY action
+description: print Hello world
+
+
+runs:
+  using: 'node16'
+  main: 'index.js'
