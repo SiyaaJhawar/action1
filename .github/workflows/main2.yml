@@ -4,7 +4,7 @@ name: Hello
 
 on:
   push:
-  push:
+  
     branches: [ main ]
   workflow_dispatch:
   jobs:
@@ -14,7 +14,7 @@ on:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: My action
-        uses: ./Action
+        uses: ./action
        
 
         
