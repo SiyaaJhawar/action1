@@ -1,18 +1,19 @@
-name: Hello
+name: My workflow
+
+ 
+
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
-jobs:
-  get-blocker:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  jobs:
+  hello:
     runs-on: ubuntu-latest
     steps:
-     
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v2
-    
       - name: My action
-        uses: ./action
-        
+        uses: ./Action
+       
+
         
