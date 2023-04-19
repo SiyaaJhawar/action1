@@ -6,8 +6,8 @@ on:
   push:
   
     branches: [ main ]
-  workflow_dispatch:
-  jobs:
+workflow_dispatch:
+jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
