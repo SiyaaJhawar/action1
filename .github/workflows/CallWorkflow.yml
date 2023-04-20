@@ -12,10 +12,11 @@ jobs:
   call-workflow:
    runs-on: ubuntu-latest
    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-    - name: Call workflow
-      uses: SiyaaJhawar/action/.github/workflows/jirablockerlist.yml@main
+
+      - name: Call workflow
+        uses: SiyaaJhawar/action@main
+        with:
+          action: SiyaaJhawar/action/.github/workflows/jirablockerlist.yml
        
 
     
