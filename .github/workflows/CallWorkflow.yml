@@ -8,6 +8,4 @@ on:
 jobs:
   call-workflow:
     uses: SiyaaJhawar/action/.github/workflows/Jirablocker.yml@main
-    with:
-      config-path: .github/labeler.yml
-    
+   
