@@ -1,10 +1,12 @@
-name: Callingworkflow
+name: Call a workflow
+
 on:
   pull_request:
     branches:
       - main
   workflow_dispatch:
 jobs:
-  Call-workflow:
-    uses: SiyaaJhawar/action/.github/workflows/CommitComment.yml@main
+  call-workflow:
+    uses: SiyaaJhawar/action/.github/workflows/Jirablocker.yml@main
+
     
