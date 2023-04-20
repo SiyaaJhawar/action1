@@ -17,7 +17,7 @@ jobs:
      - name: Call workflow
        uses: SiyaaJhawar/action@main
        with:
-        action: SiyaaJhawar/action/.github/workflows/jirablockerlist.yml
+        action: SiyaaJhawar/action/.github/workflows/jirablockerlist
       
 
     
