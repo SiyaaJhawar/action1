@@ -2,7 +2,7 @@ name: Call a workflow
 
 
 on:
-  workflow_call:
+
    
   workflow_dispatch:
   
