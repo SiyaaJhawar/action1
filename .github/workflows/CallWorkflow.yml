@@ -16,6 +16,9 @@ jobs:
        uses: actions/checkout@v3
      - name: jirablockerlist action
        uses: SiyaaJhawar/action/Jirablockerlist@main
+       with:
+        jira_url: 'https://swgup.atlassian.net/rest/api/3/search?filter=allissues'
+       
       
        
         
