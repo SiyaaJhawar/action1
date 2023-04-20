@@ -2,8 +2,10 @@ name: Call a workflow
 
 
 on:
-
-   
+  pull_request:
+    branches:
+      - main
+      
   workflow_dispatch:
   
 jobs:
