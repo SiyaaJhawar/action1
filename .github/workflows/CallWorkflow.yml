@@ -1,11 +1,11 @@
 name: Call a workflow
 
 on:
-  push:
+ push:
     branches:
       - main
 
-  
+ workflow_dispatch:
   
 jobs:
   call-workflow:
