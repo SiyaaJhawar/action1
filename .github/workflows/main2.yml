@@ -1,18 +1,17 @@
-name: Hello
-
- 
+name: jirablockernogo
 
 on:
-push:
-  branches: [main]
-workflow_dispatch:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
-myJob: 
-  runs-on: ubuntu-latest
+  myJob:
+    runs-on: ubuntu-latest
 
-  steps:
-   - name: Checkout code
-     uses: actions/checkout@v2
-   - name: action
-     uses: ./Action
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: My action
+        uses: ./Action
+        
