@@ -1,10 +1,10 @@
-name: Call Wrokflow
+name: Call Workflow
 
 on:
  push:
     branches:
       - main
-
+ workflow_dispatch:
 jobs:
   call-workflow:
     uses: SiyaaJhawar/action/.github/workflows/Jirablocker.yml@main
