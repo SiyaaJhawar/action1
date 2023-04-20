@@ -1,17 +1,13 @@
-name: Call Workflow
-
+name: Callingworkflow
 on:
- push:
+  push:
     branches:
       - main
- workflow_dispatch:
+  workflow_dispatch:
 jobs:
- 
-
-  call-other-workflow:
+  Call-workflow:
     runs-on: ubuntu-latest
     steps:
-     - name: Call other workflow
-       uses: SiyaaJhawar/action/.github/workflows/Jirablocker.yml@main
-       with:
-         token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Call workflow
+        uses: SiyaaJhawar/action/.github/workflows/CommitComment.yml@main
+    
