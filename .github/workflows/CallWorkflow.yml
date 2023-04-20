@@ -7,7 +7,11 @@ on:
  workflow_dispatch:
 jobs:
  
-  call-workflow:
-   uses: SiyaaJhawar/action/.github/workflows/Jirablocker.yml@main
-   with:
-    token: ${{ secrets.GITHUB_TOKEN }}
+
+  call-other-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call other workflow
+        uses: SiyaaJhawar/action/.github/workflows/Jirablocker.yml@main
+        with:
+         token: ${{ secrets.GITHUB_TOKEN }}
