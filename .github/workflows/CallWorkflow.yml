@@ -17,8 +17,7 @@ jobs:
      - name: jirablockerlist action
        uses:  SiyaaJhawar/action/Jirablockerlist@main
        with:
-        action: SiyaaJhawar/action/.github/workflows/jirablockerlist.yml
-       
+         jira_url: 'https://swgup.atlassian.net/rest/api/3/search?filter=allissues'
       
        
         
