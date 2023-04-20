@@ -9,6 +9,6 @@ on:
   
 jobs:
   call-workflow:
-    uses: SiyaaJhawar/action/.github/workflows/Jirablocker.yml@main
+    uses: SiyaaJhawar/action/.github/workflows/jirablockerlist.yml@main
 
     
