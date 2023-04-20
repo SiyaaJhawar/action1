@@ -1,4 +1,4 @@
-name: jirablockernogo
+name: Call Workflow
 
 on:
   push:
