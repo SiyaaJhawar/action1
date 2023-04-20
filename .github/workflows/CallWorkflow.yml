@@ -15,9 +15,9 @@ jobs:
      - name: Checkout repository
        uses: actions/checkout@v3
      - name: jirablockerlist action
-       uses: SiyaaJhawar/action/.github/workflows/jirablockerlist.yml@main
+       uses:  SiyaaJhawar/action/Jirablockerlist@main
        with:
-        action: SiyaaJhawar/action/Jirablockerlist
+        action: SiyaaJhawar/action/.github/workflows/jirablockerlist
        
       
        
