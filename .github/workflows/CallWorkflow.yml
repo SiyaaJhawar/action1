@@ -15,9 +15,9 @@ jobs:
      - name: Checkout repository
        uses: actions/checkout@v3
      - name: jirablockerlist action
-       uses: SiyaaJhawar/action/Jirablockerlist@main
+       uses: SiyaaJhawar/action/.github/workflows/jirablockerlist.yml@main
        with:
-        jira_url: 'https://swgup.atlassian.net/rest/api/3/search?filter=allissues'
+        action: SiyaaJhawar/action/Jirablockerlist
        
       
        
