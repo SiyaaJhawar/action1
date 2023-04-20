@@ -6,6 +6,8 @@ on:
       - main
  workflow_dispatch:
 jobs:
+ 
   call-workflow:
-    
-        uses: SiyaaJhawar/action/.github/workflows/Jirablocker.yml@main
+   uses: SiyaaJhawar/action/.github/workflows/Jirablocker.yml@main
+   with:
+    token: ${{ secrets.GITHUB_TOKEN }}
