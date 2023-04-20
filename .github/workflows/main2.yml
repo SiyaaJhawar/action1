@@ -1,4 +1,4 @@
-name: jirablockernogo
+name: Hello
 
 on:
   push:
