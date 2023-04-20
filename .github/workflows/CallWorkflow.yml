@@ -1,12 +1,10 @@
-name: Call Workflow
+name: Call Wrokflow
 
 on:
-  push:
-    branches: [ main ]
-  workflow_dispatch:
+ push:
+    branches:
+      - main
 
 jobs:
-  call-other-workflow:
-  
-    
+  call-workflow:
     uses: SiyaaJhawar/action/.github/workflows/Jirablocker.yml@main
