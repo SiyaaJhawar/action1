@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Call Power Automate Flow
         run: |
-          curl -X POST -H "Content-Type: application/json" -d '{"CycleName": "wmioInt-AWS-Dev", "Action": "Stable","component": "api,admin,auth","tag":"v10.17.0.50b8e7g,v10.17.0.eecf0a1,v10.17.0.f19ece9-v10.17.0.395.dev"}'"https://prod-146.westeurope.logic.azure.com:443/workflows/d487c5a2cd4d46308f071c352a35a417/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=6JQnUMsaZUamYpPuxjrlhV0Bci4dQ5GJV40mp_pVMhQ"
+          curl -X POST -H "Content-Type: application/json" -d '{"CycleName": "wmioInt-AWS-Dev", "Action": "Stable","component": "api,admin,auth","tag":"v10.17.0.50b8e7g,v10.17.0.eecf0a1,v10.17.0.f19ece9-v10.17.0.395.dev"}' "<https://prod-146.westeurope.logic.azure.com:443/workflows/d487c5a2cd4d46308f071c352a35a417/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=6JQnUMsaZUamYpPuxjrlhV0Bci4dQ5GJV40mp_pVMhQ>"
