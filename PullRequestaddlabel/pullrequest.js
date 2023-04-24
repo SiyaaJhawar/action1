@@ -1,4 +1,5 @@
-import fetch from 'node-fetch';
+const fetch = require('node-fetch');
+
 
 const apiUrl = "https://api.github.com";
 const owner = "SiyaaJhawar";
