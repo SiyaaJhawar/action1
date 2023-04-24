@@ -5,11 +5,13 @@ const owner = "SiyaaJhawar";
 const repo = "action1";
 const pull_number = 2; // Replace with the pull request number
 const label = "release";
-const authToken = process.env.GITHUB_API_TOKEN;
-
+const username = process.env.GITHUB_USERNAME;
+const password = process.env.GITHUB_API_TOKEN;
+const encodedCredentials = Buffer.from(`${username}:${password}`).toString('base64');
+   
 const headers = {
-  Authorization: `token ${authToken}`,
-  Accept: "application/vnd.github.v3+json",
+   "Authorization": `Basic ${encodedCredentials}`,
+        "Accept": "application/json"
 };
 
 
