@@ -12,7 +12,7 @@ const apiUrl = "https://api.github.com";
 const owner = "SiyaaJhawar";
 const repo = "action1";
 const pull_number = 2; // Replace with the pull request number
-const label = "bug";
+const label = "release";
 const authToken = "process.env.GITHUB_API_TOKEN";
 const headers = {
   Authorization: `token ${authToken}`,
