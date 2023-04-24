@@ -1,4 +1,11 @@
-// Set up the API endpoint and authentication
+import fetch from 'node-fetch';
+
+// Use the fetch module here
+
+
+
+
+
 const apiUrl = "https://api.github.com";
 const owner = "SiyaaJhawar";
 const repo = "action1";
