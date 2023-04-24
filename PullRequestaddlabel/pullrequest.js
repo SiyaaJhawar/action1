@@ -10,6 +10,8 @@ const headers = {
   Authorization: `token ${authToken}`,
   Accept: "application/vnd.github.v3+json",
 };
+console.log("Using Github token for authentication.");
+
 
 // Add the label to the pull request using fetch
 fetch(`${apiUrl}/repos/${owner}/${repo}/issues/${pull_number}/labels`, {
