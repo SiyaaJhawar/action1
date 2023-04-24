@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 import fetch from 'node-fetch';
 
 // Use the fetch module here
 
 
 
+=======
+const fetch = require('node-fetch');
+>>>>>>> c93c956c2c614f8da426ff316a784292394d0ce8
 
 
 const apiUrl = "https://api.github.com";
