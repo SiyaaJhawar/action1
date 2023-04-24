@@ -6,7 +6,7 @@ const repo = "action1";
 const pull_number = 2; // Replace with the pull request number
 const label = "release";
 const authToken = process.env.GITHUB_API_TOKEN;
-if (!GITHUB_API_TOKEN) {
+if (!authToken) {
   console.log("Github token is missing.");
   process.exit(1);
 }
