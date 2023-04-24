@@ -7,6 +7,8 @@ const pull_number = 2; // Replace with the pull request number
 const label = "release";
 const username = process.env.GITHUB_USERNAME;
 const password = process.env.GITHUB_API_TOKEN;
+console.log("username");
+console.log("password");
 const encodedCredentials = Buffer.from(`${username}:${password}`).toString('base64');
    
 const headers = {
