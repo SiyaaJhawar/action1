@@ -1,0 +1,9 @@
+name: My Action
+description: My action description
+
+
+
+
+runs:
+  using: 'node16'
+  main: 'pullrequest.js'
