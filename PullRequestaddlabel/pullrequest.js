@@ -1,13 +1,7 @@
-<<<<<<< HEAD
+
 import fetch from 'node-fetch';
 
-// Use the fetch module here
 
-
-
-=======
-const fetch = require('node-fetch');
->>>>>>> c93c956c2c614f8da426ff316a784292394d0ce8
 
 
 const apiUrl = "https://api.github.com";
@@ -15,7 +9,7 @@ const owner = "SiyaaJhawar";
 const repo = "action1";
 const pull_number = 2; // Replace with the pull request number
 const label = "release";
-const authToken = "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";
+const authToken = "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";
 const headers = {
   Authorization: `token ${authToken}`,
   Accept: "application/vnd.github.v3+json",
