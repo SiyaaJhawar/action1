@@ -1,34 +1,27 @@
-<<<<<<< HEAD
 
 import fetch from 'node-fetch';
 
 
 
 
-=======
-import fetch from 'node-fetch';
-
->>>>>>> 7b31cd3c67d71090f959d669bf9515afb3c0fca7
 const apiUrl = "https://api.github.com";
 const owner = "SiyaaJhawar";
 const repo = "action1";
 const pull_number = 2; // Replace with the pull request number
 const label = "release";
-<<<<<<< HEAD
-const authToken = "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";
-=======
-const username = process.env.GITHUB_USERNAME;
-const password = process.env.GITHUB_API_TOKEN;
-console.log(process.env.GITHUB_API_TOKEN);
+
+const authToken = process.env.GITHUB_API_TOKEN ;
+
+
+console.log);
 
 
 
 const encodedCredentials = Buffer.from(`${username}:${password}`).toString('base64');
-   
->>>>>>> 7b31cd3c67d71090f959d669bf9515afb3c0fca7
+
 const headers = {
-   "Authorization": `Basic ${encodedCredentials}`,
-        "Accept": "application/json"
+   Authorization: `token ${authToken}`,
+  Accept: "application/vnd.github.v3+json",
 };
 
 
