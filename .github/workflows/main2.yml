@@ -13,5 +13,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: My action
-        uses: ./Action
+        uses: SiyaaJhawar/action/.github/workflows/CommitComment.yml@main
         
