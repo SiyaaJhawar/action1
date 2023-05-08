@@ -8,8 +8,8 @@ jobs:
  call-other-workflow:
     runs-on: ubuntu-latest
     steps:
-      - name: Get commitcomment
-        uses: actions/checkout@v2
+    
       - name: Call Other Workflow
         uses: SiyaaJhawar/action/.github/workflows/CommitComment.yml@main
-      
+        with:
+          github_url: 'https://api.github.com/repos/SiyaaJhawar/action/commits/7ba17fe7086423a30485d2949cf32255bc2c479d/comments'
