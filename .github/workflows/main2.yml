@@ -1,4 +1,4 @@
-name: Hello
+name: Calling workflow
 
 on:
   push:
@@ -6,12 +6,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  myJob:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: My action
-        uses: SiyaaJhawar/action/.github/workflows/CommitComment.yml@main
+ myJob:
+   uses: SiyaaJhawar/action/.github/workflows/CommitComment.yml@main
         
