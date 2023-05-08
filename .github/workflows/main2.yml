@@ -7,8 +7,5 @@ on:
 jobs:
  call-other-workflow:
     runs-on: ubuntu-latest
-    steps:
-    
-      - name: Call Other Workflow
-        uses: SiyaaJhawar/action/.github/workflows/CommitComment.yml@main
+
       
